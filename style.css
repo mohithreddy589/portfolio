@@ -1,0 +1,264 @@
+body {
+    height: 100vh;
+    background-image: url('https://res.cloudinary.com/nihars3/image/upload/v1696232927/photo-1619429858348-2d5ad1547e6c_nnvynb.jpg');
+}
+
+.nav-name {
+    color: white;
+}
+
+.nav-name:hover {
+    color: rgb(223, 108, 21);
+}
+
+.item-nav {
+    color: white;
+}
+
+.item-nav:hover {
+    color: rgb(223, 108, 21);
+}
+
+.anchor {
+    margin-left: auto;
+}
+
+
+
+.home {
+    font-family: "Tektur", sans-serif;
+    color: antiquewhite;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+.about {
+    height: 100vh;
+    margin: 100px;
+    ;
+
+
+
+
+
+}
+
+
+.about-head {
+    font-family: "Tektur", sans-serif;
+    color: antiquewhite;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.about-body {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+
+}
+
+.box-left {
+    text-align: left;
+    margin-top: 100px;
+
+}
+
+.box-right {
+    margin-top: 100px;
+}
+
+.card {
+    background-color: transparent;
+
+}
+
+.projects {
+    height: 80vh;
+    margin: 100px;
+
+
+}
+
+.projects-head {
+    font-family: "Tektur", sans-serif;
+    color: antiquewhite;
+    margin-top: 200px;
+
+
+}
+
+.card {
+    border-color: white;
+    margin-top: 50px;
+
+
+}
+
+.card-title,
+.card-text1,
+.card-text,
+.card-text2,
+.card-text3,
+.card-text4,
+.card-text5 {
+    color: white;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.projects-info {
+    color: white;
+}
+
+.card-img-top {
+
+    height: 200px;
+}
+
+.skills {
+    height: 10vh;
+    margin: 100px;
+}
+
+.skills-head {
+    font-family: "Tektur", sans-serif;
+    color: antiquewhite;
+
+
+
+}
+
+.marquee-text {
+    margin-top: 20px;
+
+}
+
+.certifications-head {
+    font-family: "Tektur", sans-serif;
+    color: antiquewhite;
+    margin-top: 100px;
+
+}
+
+.certifications {
+    height: 100vh;
+    margin: 100px;
+}
+
+.carousel-item {
+    height: vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.marquee-text {
+    overflow: clip;
+}
+
+.marquee-text-track {
+    display: flex;
+    padding-left: 4.8rem;
+    gap: 4.8rem;
+    width: max-content;
+    animation: marquee-move-text var(--speed, 10s) linear infinite var(--direction,
+            forwards);
+}
+
+.marquee-text p {
+    border: 1px solid white;
+    color: white;
+    background-color: #0000007e;
+    border-radius: 999px;
+    padding: 1rem 2.5rem;
+}
+
+@keyframes marquee-move-text {
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+
+.contact-head {
+
+    font-family: "Tektur", sans-serif;
+    color: antiquewhite;
+    margin-bottom: 50px;
+
+
+}
+
+.contact-me {
+    padding: 4%;
+    height: 100vh;
+    margin-top: 100px;
+
+
+
+}
+
+
+.col-md-3 {
+    background: #ff9b00;
+    padding: 4%;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+.contact-info {
+    margin-top: 10%;
+}
+
+.contact-info img {
+    margin-bottom: 15%;
+}
+
+.contact-info h2 {
+    margin-bottom: 10%;
+}
+
+.col-md-9 {
+    background: #fff;
+    padding: 3%;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+.contact-form label {
+    font-weight: 600;
+}
+
+.contact-form button {
+    background: #25274d;
+    color: #fff;
+    font-weight: 600;
+    width: 25%;
+}
+
+.contact-form button:focus {
+    box-shadow: none;
+}
